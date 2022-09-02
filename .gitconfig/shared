@@ -20,4 +20,7 @@
 [commit]
 	gpgsign = true
 [include]
-  path = user
+    path = user
+[remote "backup"]
+    url = github.com:diegolavalledev/swiftysites-cmark-gfm
+    fetch = +refs/heads/*:refs/remotes/backup/*
